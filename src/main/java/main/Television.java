@@ -38,8 +38,8 @@ public class Television {
     }
     
     public void printAttributes() {
-        System.out.println("Volume: " + this.volume);
-        System.out.println("Current program: " + this.curentProgram);
-        System.out.println("Turn on: " + this.turnOn);  
+        System.out.println("Volume: " + this.getVolume());
+        System.out.println("Current program: " + this.getCurrentProgram());
+        System.out.println("Turn on: " + this.getTurnOn());  
     }
 }

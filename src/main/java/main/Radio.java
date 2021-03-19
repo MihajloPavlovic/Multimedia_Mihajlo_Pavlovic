@@ -48,9 +48,9 @@ public class Radio {
     }
     
     public void printAttributes() {
-        System.out.println("FM frequency: " + this.fmFrequency);
+        System.out.println("FM frequency: " + this.getFmFrequency());
         System.out.println("AM frequency: " + this.amFrequency);
         System.out.println("AM: " + this.AM);
-        System.out.println("FM: " + this.FM);
+        System.out.println("FM: " + this.getFM());
     }
 }
